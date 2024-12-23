@@ -1,9 +1,9 @@
 
 variable "static_website_bucket_name" {
   type    = string
-  default = "my-tf-saniakurup-bucket"
+  default = "static_website-hb-241224"
 }
-variable "build-bucker-name" {
+variable "build-bucket-name" {
   type    = string
-  default = "hypha-saniakurup-bucket"
+  default = "build-bucket-hb-241224"
 }
