@@ -1,6 +1,6 @@
 # .github/workflows/terraform-cicd.yml
 
-name: Terraform CI/CD
+name: Destroy Terraform CI/CD
 
 on:
   workflow_dispatch:
