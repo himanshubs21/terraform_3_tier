@@ -53,4 +53,5 @@ resource "aws_s3_bucket_policy" "allow_access_from_internet" {
 }
 resource "aws_s3_bucket" "hypha-build-and-push-bucket" {
   bucket = var.build-bucker-name
+  force_destroy = true
 }
