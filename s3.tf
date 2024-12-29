@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "static_website_bucket" {
   bucket = var.static_website_bucket_name
-  force_delete = true
+  force_destroy = true
 }
 
 resource "aws_s3_bucket_ownership_controls" "static_website_bucket" {
